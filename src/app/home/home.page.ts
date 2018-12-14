@@ -7,6 +7,6 @@ import { AppStateService } from '../app-state.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  constructor(private appStateSvc: AppStateService) {}
+  constructor(public appStateSvc: AppStateService) {}
 
 }

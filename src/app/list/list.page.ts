@@ -31,7 +31,7 @@ export class ListPage implements OnInit {
 
   // public items: any[] = [];
   
-  constructor(private planetSvc:TheforceAPIService, private appStateSvc: AppStateService) {
+  constructor(private planetSvc:TheforceAPIService, public appStateSvc: AppStateService) {
 
     // for (let i = 1; i < 11; i++) {
     //   this.items.push({
